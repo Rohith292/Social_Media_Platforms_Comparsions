@@ -12,3 +12,5 @@ data/raw/
 *.model
 *.ckpt
 streamlit/
+data/processed/reviews_sentiment.csv
+data/raw/
