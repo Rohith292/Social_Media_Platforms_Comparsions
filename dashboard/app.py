@@ -28,8 +28,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ===================== LOAD DATA =====================
-df = pd.read_csv("../data/processed/reviews_sentiment_small.csv")
-df_clean = pd.read_csv("../data/processed/reviews_cleaned.csv")
+df = pd.read_csv("data/processed/reviews_sentiment_small.csv")
+df_clean = pd.read_csv("data/processed/reviews_cleaned.csv")
 
 platforms = df["Platform"].unique()
 selected_platforms = st.sidebar.multiselect("Select Platform", platforms, default=list(platforms))
